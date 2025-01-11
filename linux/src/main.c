@@ -4,6 +4,8 @@
 #include "connection_pool.h"
 #include "config.h"
 #include "log.h"
+#include <bits/sigaction.h>
+#include <asm-generic/signal-defs.h>
 
 
 static void main_destroy(int exit_status)
